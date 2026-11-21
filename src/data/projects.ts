@@ -133,7 +133,7 @@ export const projects: Project[] = [
     category: 'app',
     status: 'done',
     accent: 'from-emerald-500 to-lime-400',
-    demo: 'https://axror-expensepro.netlify.app',
+    demo: 'https://expensepro-mocha.vercel.app',
     icon: 'wallet',
     features: [
       {

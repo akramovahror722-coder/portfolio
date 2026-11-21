@@ -28,7 +28,7 @@ const projects = [
     kicker: 'MOLIYA BOSHQARUVI',
     description: 'Kirim-chiqim, hamyonlar, moliyaviy maqsadlar va AI tavsiyalari bitta dashboardda.',
     tech: ['JavaScript', 'Charts', 'LocalStorage'],
-    demo: 'https://axror-expensepro.netlify.app',
+    demo: 'https://expensepro-mocha.vercel.app',
     mark: '$',
     year: '2025',
     status: 'Tayyor',
