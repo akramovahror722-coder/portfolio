@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #1a1b26;
+}
+
+.hero-container {
+    background-color: #fce300;
+    display: flex;
+    padding: 50px;
+    position: relative;
+    height: 400px;
+}
+
+.image-box img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin-right: 40px;
+}
+
+/* Sarlavhalar uchun */
+.section-title {
+    color: #1a1b26; 
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.maqsadim {
+    font-size: 15px;
+    line-height: 1.4;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+.text-box {
+    max-width: 450px; 
+    padding-top: 20px;
+    overflow-y: auto; 
+    height: 350px;
+}
+
+.more-link {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+.portfolio-title {
+    position: absolute;
+    bottom: -100px;
+    left: 50px;
+}
+
+.portfolio-title h1 {
+    font-size: 80px;
+    color: white;
+    text-transform: lowercase;
+    margin: 0;
+}
+.Men_haqimda {
+    margin-top: -20px;
+}
