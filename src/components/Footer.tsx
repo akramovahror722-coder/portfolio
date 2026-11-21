@@ -10,7 +10,6 @@ const pageLinks = [
   { to: '/about', key: 'about' },
   { to: '/skills', key: 'skills' },
   { to: '/projects', key: 'projects' },
-  { to: '/apps', key: 'apps' },
   { to: '/journey', key: 'journey' },
   { to: '/blog', key: 'blog' },
   { to: '/certificates', key: 'certificates' },

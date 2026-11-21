@@ -63,13 +63,7 @@ export function ProjectDetailPage() {
         subtitle={localize(project.subtitle, lang)}
       >
         <div className="flex flex-wrap items-center gap-3">
-          {project.route && (
-            <Link to={project.route} className="btn-primary">
-              <ExternalLink className="size-4" />
-              {t.projects.openApp}
-            </Link>
-          )}
-          {!project.route && project.demo && (
+          {project.demo && (
             <a href={project.demo} target="_blank" rel="noreferrer" className="btn-primary">
               <ExternalLink className="size-4" />
               {t.projects.demo}
@@ -169,15 +163,9 @@ export function ProjectDetailPage() {
               </ul>
             </div>
 
-            {(project.demo || project.github || project.route) && (
+            {(project.demo || project.github) && (
               <div className="card-surface space-y-2.5 p-5">
-                {project.route && (
-                  <Link to={project.route} className="btn-primary w-full">
-                    <ExternalLink className="size-4" />
-                    {t.projects.openApp}
-                  </Link>
-                )}
-                {!project.route && project.demo && (
+                {project.demo && (
                   <a
                     href={project.demo}
                     target="_blank"

@@ -24,7 +24,6 @@ function techStyle(tech: string): string {
 
 export function ProjectCard({ project }: { project: Project }) {
   const { t, lang } = useLang()
-  const internal = Boolean(project.route)
 
   return (
     <article className="group card-surface card-hover relative flex h-full flex-col overflow-hidden">
@@ -90,16 +89,7 @@ export function ProjectCard({ project }: { project: Project }) {
 
         {/* Links */}
         <div className="mt-5 flex flex-wrap items-center gap-3 border-t border-slate-200/60 pt-4 dark:border-white/[0.07]">
-          {internal && project.route && (
-            <Link
-              to={project.route}
-              className="inline-flex items-center gap-1.5 rounded-lg bg-teal-500/10 px-3 py-1.5 text-sm font-semibold text-teal-600 transition-all hover:bg-teal-500/20 dark:text-teal-300"
-            >
-              <ExternalLink className="size-3.5" />
-              {t.projects.openApp}
-            </Link>
-          )}
-          {!internal && project.demo && (
+          {project.demo && (
             <a
               href={project.demo}
               target="_blank"

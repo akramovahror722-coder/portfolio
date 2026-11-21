@@ -436,40 +436,46 @@ export const projects: Project[] = [
     year: '2025',
     role: solo,
     subtitle: {
-      uz: 'Ollama va Gemini bilan ishlaydigan chat ilovasi',
-      en: 'Chat app powered by Ollama and Gemini',
-      ru: 'Чат-приложение на Ollama и Gemini',
+      uz: 'Pollinations API asosidagi AI suhbatdosh',
+      en: 'AI chat powered by the Pollinations API',
+      ru: 'AI-чат на базе Pollinations API',
     },
     description: {
-      uz: "Node.js va Express backend orqali mahalliy Ollama modellari yoki Gemini API bilan suhbatlashadigan ilova.",
-      en: 'An app that chats with local Ollama models or the Gemini API through a Node.js and Express backend.',
-      ru: 'Приложение для общения с локальными моделями Ollama или Gemini API через backend на Node.js и Express.',
+      uz: "Ro‘yxatdan o‘tish va API kalitisiz ishlaydigan bepul AI chat: to‘rtta model, suhbat tarixi va kodni formatlash.",
+      en: 'A free AI chat with no sign-up or API key, four models, chat history and formatted code.',
+      ru: 'Бесплатный AI-чат без регистрации и API-ключа: четыре модели, история диалогов и форматирование кода.',
     },
     longDescription: {
-      uz: "AI Chat — sun’iy intellekt bilan ishlashni o‘rganish uchun yaratilgan loyiha. Backend Express’da yozilgan va ikkita yo‘nalishni qo‘llab-quvvatlaydi: mahalliy Ollama modellari (masalan llama) va Gemini API. Frontend sodda chat interfeysi bo‘lib, xabarlar tarixini saqlaydi. Maxfiy kalitlar serverda qoladi.",
-      en: 'AI Chat is a project for learning how to work with AI. The backend is written in Express and supports two paths: local Ollama models (for example llama) and the Gemini API. The frontend is a simple chat interface that keeps message history. Secret keys stay on the server.',
+      uz: "AI Chat — Pollinations API orqali ishlaydigan bepul AI suhbatdosh. Ro‘yxatdan o‘tish yoki API kaliti shart emas. OpenAI, OpenAI Fast, Mistral va Llama modellaridan foydalanish, suhbat tarixini brauzerda saqlash, javobni to‘xtatish va qayta urinish mumkin. Markdown hamda kod bloklari, uch til va yorug‘/tun rejimi mavjud.",
+      en: 'AI Chat is a free assistant powered by the Pollinations API, with no sign-up or API key required. Choose from OpenAI, OpenAI Fast, Mistral and Llama, save chat history in the browser, stop or retry responses, and use Markdown/code formatting, three languages and light/dark themes.',
     },
-    tech: ['Node.js', 'Express', 'JavaScript', 'Ollama', 'Gemini API'],
+    tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Pollinations API'],
     category: 'app',
     status: 'done',
     accent: 'from-cyan-500 to-teal-400',
+    github: 'https://github.com/akramovahror722-coder/ai-chat',
+    demo: 'https://akramovahror722-coder.github.io/ai-chat/',
     icon: 'chat',
     features: [
       {
-        uz: 'Mahalliy Ollama modellari bilan suhbat',
-        en: 'Chat with local Ollama models',
-        ru: 'Общение с локальными моделями Ollama',
-      },
-      { uz: 'Gemini API’ni qo‘llab-quvvatlash', en: 'Gemini API support', ru: 'Поддержка Gemini API' },
-      {
-        uz: 'Express backend va /api/chat endpoint',
-        en: 'Express backend and a /api/chat endpoint',
-        ru: 'Express backend и endpoint /api/chat',
+        uz: 'OpenAI, OpenAI Fast, Mistral va Llama modellari',
+        en: 'OpenAI, OpenAI Fast, Mistral and Llama models',
+        ru: 'Модели OpenAI, OpenAI Fast, Mistral и Llama',
       },
       {
-        uz: 'Suhbat tarixi va zamonaviy chat interfeysi',
-        en: 'Message history and a modern chat interface',
-        ru: 'История диалога и современный чат-интерфейс',
+        uz: 'Ro‘yxatdan o‘tish va API kalitisiz foydalanish',
+        en: 'Use without sign-up or an API key',
+        ru: 'Работа без регистрации и API-ключа',
+      },
+      {
+        uz: 'Suhbat tarixi localStorage’da saqlanadi',
+        en: 'Chat history saved in localStorage',
+        ru: 'История диалогов сохраняется в localStorage',
+      },
+      {
+        uz: 'Markdown, kod bloklari, javobni to‘xtatish va qayta urinish',
+        en: 'Markdown, code blocks, stop and retry responses',
+        ru: 'Markdown, блоки кода, остановка и повтор ответа',
       },
     ],
   },
@@ -544,7 +550,8 @@ export const projects: Project[] = [
     category: 'study',
     status: 'done',
     accent: 'from-orange-500 to-amber-400',
-    demo: 'https://axror-dars.netlify.app',
+    github: 'https://github.com/akramovahror722-coder/dars-mashqlari',
+    demo: 'https://akramovahror722-coder.github.io/dars-mashqlari/',
     icon: 'book',
     features: [
       {
@@ -587,7 +594,8 @@ export const projects: Project[] = [
     category: 'study',
     status: 'done',
     accent: 'from-cyan-500 to-blue-400',
-    demo: 'https://axror-react.netlify.app',
+    github: 'https://github.com/akramovahror722-coder/react-mashqi',
+    demo: 'https://akramovahror722-coder.github.io/react-mashqi/',
     icon: 'react',
     features: [
       {
@@ -608,7 +616,6 @@ export const projects: Project[] = [
     title: 'Havo',
     year: '2026',
     role: solo,
-    route: '/apps/weather',
     subtitle: {
       uz: 'Ob-havo dashboardi (Open-Meteo)',
       en: 'Weather dashboard (Open-Meteo)',
@@ -627,6 +634,8 @@ export const projects: Project[] = [
     category: 'app',
     status: 'done',
     accent: 'from-sky-500 to-indigo-400',
+    github: 'https://github.com/akramovahror722-coder/havo',
+    demo: 'https://akramovahror722-coder.github.io/havo/',
     icon: 'cloud',
     features: [
       {
@@ -656,7 +665,6 @@ export const projects: Project[] = [
     title: 'Taomlar Kitobi',
     year: '2026',
     role: solo,
-    route: '/apps/recipes',
     subtitle: {
       uz: 'Retseptlar va taomlar qo‘llanmalari',
       en: 'Recipe and cooking handbook',
@@ -675,6 +683,8 @@ export const projects: Project[] = [
     category: 'app',
     status: 'done',
     accent: 'from-orange-500 to-red-400',
+    github: 'https://github.com/akramovahror722-coder/taomlar-kitobi',
+    demo: 'https://akramovahror722-coder.github.io/taomlar-kitobi/',
     icon: 'chef',
     features: [
       {
@@ -704,7 +714,6 @@ export const projects: Project[] = [
     title: 'Eslatmalar',
     year: '2026',
     role: solo,
-    route: '/apps/notes',
     subtitle: {
       uz: 'Shaxsiy eslatmalar va kundalik qaydlar',
       en: 'Personal notes and daily journal',
@@ -723,6 +732,8 @@ export const projects: Project[] = [
     category: 'app',
     status: 'done',
     accent: 'from-fuchsia-500 to-purple-400',
+    github: 'https://github.com/akramovahror722-coder/eslatmalar',
+    demo: 'https://akramovahror722-coder.github.io/eslatmalar/',
     icon: 'note',
     features: [
       {
@@ -752,7 +763,6 @@ export const projects: Project[] = [
     title: 'FitTrack',
     year: '2026',
     role: solo,
-    route: '/apps/fitness',
     subtitle: {
       uz: 'Mashq rejalari va taymer',
       en: 'Workout plans and timer',
@@ -771,6 +781,8 @@ export const projects: Project[] = [
     category: 'app',
     status: 'done',
     accent: 'from-lime-500 to-emerald-400',
+    github: 'https://github.com/akramovahror722-coder/fittrack',
+    demo: 'https://akramovahror722-coder.github.io/fittrack/',
     icon: 'dumbbell',
     features: [
       {
@@ -799,11 +811,17 @@ export const projects: Project[] = [
 
 export const featuredIds = ['pdfnova', 'navbatgo', 'expensepro']
 
-export const appIds = ['havo', 'taomlar', 'eslatmalar', 'fittrack']
-
 export const stats: Stat[] = [
   { value: projects.length, suffix: '', label: { uz: 'Loyiha', en: 'Projects', ru: 'Проектов' } },
-  { value: 4, suffix: '', label: { uz: 'Mini-ilova', en: 'Mini apps', ru: 'Мини-приложений' } },
+  {
+    value: 7,
+    suffix: '',
+    label: {
+      uz: 'Alohida sayt',
+      en: 'Standalone sites',
+      ru: 'Отдельных сайтов',
+    },
+  },
   { value: 3, suffix: '', label: { uz: 'Til', en: 'Languages', ru: 'Языка' } },
   { value: 14, suffix: '', label: { uz: 'Yosh', en: 'Years old', ru: 'Лет' } },
 ]

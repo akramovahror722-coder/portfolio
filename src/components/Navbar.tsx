@@ -12,7 +12,6 @@ const links = [
   { to: '/about', key: 'about', end: false },
   { to: '/skills', key: 'skills', end: false },
   { to: '/projects', key: 'projects', end: false },
-  { to: '/apps', key: 'apps', end: false },
   { to: '/contact', key: 'contact', end: false },
 ] as const
 

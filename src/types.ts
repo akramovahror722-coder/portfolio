@@ -34,8 +34,6 @@ export interface Project {
   year: string
   role: Localized
   features: Localized[]
-  /** Ichki manzil: sayt ichidagi mini-ilovaga olib boradi. */
-  route?: string
   /** Loyihaning o'z ichki sahifasi bo'lsa (masalan blog yoki taom detali). */
   source?: string
 }
