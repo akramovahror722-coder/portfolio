@@ -68,7 +68,7 @@ export const en: typeof uz = {
       },
       projects: {
         title: 'Projects',
-        text: '17 projects: websites, apps, games and study work.',
+        text: '18 projects: websites, apps, games and study work.',
       },
       apps: {
         title: 'Apps',

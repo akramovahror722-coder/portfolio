@@ -66,7 +66,7 @@
       },
       projects: {
         title: 'Loyihalar',
-        text: '17 ta loyiha: veb-saytlar, ilovalar, o\u2018yinlar va o\u2018quv ishlari.',
+        text: '18 ta loyiha: veb-saytlar, ilovalar, o\u2018yinlar va o\u2018quv ishlari.',
       },
       apps: {
         title: 'Ilovalar',

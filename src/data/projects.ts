@@ -807,9 +807,53 @@ export const projects: Project[] = [
       },
     ],
   },
+  {
+    id: 'projects-hub',
+    title: 'Axror Project Showcase',
+    year: '2026',
+    role: solo,
+    subtitle: {
+      uz: 'Portfoliodagi 17 ta loyiha — bitta saytda',
+      en: '17 portfolio projects in one site',
+      ru: '17 проектов портфолио в одном сайте',
+    },
+    description: {
+      uz: '17 ta loyiha kartasi, qidiruv va toifalar bo‘yicha filtrlashga ega alohida sayt.',
+      en: 'A standalone site with 17 project cards, search and category filters.',
+      ru: 'Отдельный сайт с 17 карточками проектов, поиском и фильтрами по категориям.',
+    },
+    longDescription: {
+      uz: 'Axror Project Showcase — mavjud portfoliodagi 17 ta loyihani namoyish qiladigan mustaqil sayt. Har bir kartada loyiha haqida qisqa ma’lumot va jonli demo havolasi bor; yetti mustaqil sayt o‘z holicha alohida ishlashda davom etadi.',
+      en: 'Axror Project Showcase is a standalone website displaying all 17 existing portfolio projects. Each card includes a short summary and a live demo link; the seven standalone websites remain independently hosted.',
+    },
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    category: 'web',
+    status: 'done',
+    accent: 'from-cyan-500 to-violet-500',
+    github: 'https://github.com/akramovahror722-coder/portfolio/tree/main/project-showcase',
+    demo: 'https://axror-showcase.vercel.app',
+    icon: 'layers',
+    features: [
+      {
+        uz: '17 ta loyiha uchun alohida kartalar',
+        en: 'Dedicated cards for all 17 projects',
+        ru: 'Отдельные карточки для всех 17 проектов',
+      },
+      {
+        uz: 'Qidiruv va mavzu bo‘yicha filtrlash',
+        en: 'Search and category filters',
+        ru: 'Поиск и фильтрация по категориям',
+      },
+      {
+        uz: 'Jonli demo va kod manbalariga havolalar',
+        en: 'Links to live demos and source code',
+        ru: 'Ссылки на демо и исходный код',
+      },
+    ],
+  },
 ]
 
-export const featuredIds = ['pdfnova', 'navbatgo', 'expensepro']
+export const featuredIds = ['pdfnova', 'navbatgo', 'expensepro', 'projects-hub']
 
 export const stats: Stat[] = [
   { value: projects.length, suffix: '', label: { uz: 'Loyiha', en: 'Projects', ru: 'Проектов' } },
