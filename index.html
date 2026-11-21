@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="uz" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Akramov Axror A'zamovich — Frontend dasturchi. HTML, CSS, JavaScript, React, TypeScript. Portfolio, 17 ta loyiha va 4 ta mini-ilova."
+    />
+    <meta name="author" content="Akramov Axror A'zamovich" />
+    <meta name="theme-color" content="#0d1117" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Akramov Axror — Portfolio" />
+    <meta property="og:title" content="Akramov Axror — Frontend dasturchi" />
+    <meta
+      property="og:description"
+      content="Yosh frontend dasturchi portfoliosi: 17 ta loyiha, 4 ta mini-ilova, ko'nikmalar, yo'l va aloqa. React, TypeScript, Next.js."
+    />
+    <meta property="og:locale" content="uz_UZ" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="ru_RU" />
+    <meta name="twitter:card" content="summary" />
+    <title>Akramov Axror — Frontend Dasturchi | Portfolio</title>
+    <link rel="preload" href="/fonts/plus-jakarta-sans-3.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/inter-6.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/inter-1.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/jetbrains-mono-5.woff2" as="font" type="font/woff2" crossorigin />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('portfolio-theme')
+          var prefersLight =
+            window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches
+          var dark = stored ? stored === 'dark' : !prefersLight
+          document.documentElement.classList.toggle('dark', dark)
+          document.documentElement.style.colorScheme = dark ? 'dark' : 'light'
+          var meta = document.querySelector('meta[name="theme-color"]')
+          if (meta) meta.setAttribute('content', dark ? '#0d1117' : '#f6f7f5')
+        } catch (e) {}
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div style="padding: 2rem; font-family: system-ui, sans-serif; text-align: center">
+        <h1>Akramov Axror — Portfolio</h1>
+        <p>Bu saytni ko'rish uchun JavaScript yoqilgan bo'lishi kerak.</p>
+        <p>Please enable JavaScript to view this site.</p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
