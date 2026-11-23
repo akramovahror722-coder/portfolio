@@ -4,6 +4,61 @@ const solo = { uz: 'Mustaqil loyiha', en: 'Solo project', ru: 'Собствен�
 
 export const projects: Project[] = [
   {
+    id: 'kosmik-ferma',
+    title: 'Kosmik Ferma',
+    year: '2026',
+    role: solo,
+    subtitle: {
+      uz: 'Birinchi shaxs 3D omon qolish o‘yini',
+      en: 'First-person 3D survival game',
+      ru: '3D-игра на выживание от первого лица',
+    },
+    description: {
+      uz: "Begona sayyorada daraxt kesish, hunarmandchilik, uy qurish, ferma va robotlar — brauzerda ishlaydigan to'liq 3D o'yin.",
+      en: 'Chop trees, craft, build a house, farm and run robots on an alien planet — a full 3D game in the browser.',
+      ru: 'Рубка деревьев, крафт, строительство дома, ферма и роботы на чужой планете — полноценная 3D-игра в браузере.',
+    },
+    longDescription: {
+      uz: "Kosmik Ferma — Three.js asosida yozilgan birinchi shaxs ko‘rinishidagi omon qolish o‘yini. O‘yinchi begona sayyoraning protsedural orolida sog‘liq, ochlik va kislorodni nazorat qilib yashaydi. Resurs yig‘ib 29 ta retsept bo‘yicha asboblar va qurilish bloklarini yasaydi, katakka tekislanadigan tizimda uy quradi, ketmon bilan yer haydab ekin ekadi. Robot stansiyasi hosilni o‘zi yig‘adi — o‘yinchi oflayn bo‘lganda ham. Kun-tun almashinuvi, tungi maxluqlar, 19 bosqichli vazifalar, avtosaqlash, mini-xarita va telefon uchun sensorli boshqaruv mavjud.",
+      en: 'Kosmik Ferma is a first-person survival game built with Three.js. On a procedurally generated alien island the player manages health, hunger and oxygen, gathers resources, crafts tools and building pieces from 29 recipes, builds a house on a snapping grid and farms with a hoe. A robot station harvests crops automatically, even while the player is offline. It features a day-night cycle, night creatures, a 19-step quest chain, autosave, a minimap and touch controls for phones.',
+      ru: 'Kosmik Ferma — игра на выживание от первого лица на Three.js. На процедурном острове чужой планеты игрок следит за здоровьем, голодом и кислородом, добывает ресурсы, крафтит инструменты и строительные блоки по 29 рецептам, строит дом по сетке и выращивает урожай. Станция роботов собирает урожай сама — даже когда игрок офлайн. Есть смена дня и ночи, ночные существа, цепочка из 19 заданий, автосохранение, мини-карта и сенсорное управление.',
+    },
+    tech: ['Three.js', 'TypeScript', 'Vite', 'WebGL', 'Web Audio'],
+    category: 'game',
+    status: 'done',
+    accent: 'from-violet-500 to-cyan-400',
+    github: 'https://github.com/akramovahror722-coder/kosmik-ferma',
+    demo: 'https://kosmik-ferma.vercel.app',
+    icon: 'rocket',
+    features: [
+      {
+        uz: 'Birinchi shaxs 3D: orol, kun-tun, halqali sayyora va ikki oy',
+        en: 'First-person 3D: island, day-night, ringed planet and two moons',
+        ru: 'Вид от первого лица: остров, день и ночь, планета с кольцами и две луны',
+      },
+      {
+        uz: 'Omon qolish: sog‘liq, ochlik, kislorod va tungi maxluqlar',
+        en: 'Survival: health, hunger, oxygen and night creatures',
+        ru: 'Выживание: здоровье, голод, кислород и ночные существа',
+      },
+      {
+        uz: '29 retsept, katakka tekislanadigan qurilish va ko‘p qavatli uylar',
+        en: '29 recipes, grid-snapping building and multi-storey houses',
+        ru: '29 рецептов, строительство по сетке и многоэтажные дома',
+      },
+      {
+        uz: 'Ferma va robotlar: oflaynda ham hosil yig‘iladi',
+        en: 'Farming and robots: crops are harvested even offline',
+        ru: 'Ферма и роботы: урожай собирается даже офлайн',
+      },
+      {
+        uz: '19 vazifa, avtosaqlash, mini-xarita va sensorli boshqaruv',
+        en: '19 quests, autosave, minimap and touch controls',
+        ru: '19 заданий, автосохранение, мини-карта и сенсорное управление',
+      },
+    ],
+  },
+  {
     id: 'ustoz',
     title: 'Ustoz',
     year: '2026',

@@ -12,6 +12,7 @@ import {
   Home,
   Layers,
   MessageCircle,
+  Rocket,
   StickyNote,
   Ticket,
   Trophy,
@@ -38,6 +39,7 @@ const icons: Record<string, LucideIcon> = {
   note: StickyNote,
   dumbbell: Dumbbell,
   graduation: GraduationCap,
+  rocket: Rocket,
 }
 
 export function ProjectIcon({ icon, className }: { icon: string; className?: string }) {
