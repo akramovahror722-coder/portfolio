@@ -8,6 +8,7 @@ import {
   FileText,
   FlaskConical,
   Gamepad2,
+  GraduationCap,
   Home,
   Layers,
   MessageCircle,
@@ -36,6 +37,7 @@ const icons: Record<string, LucideIcon> = {
   chef: ChefHat,
   note: StickyNote,
   dumbbell: Dumbbell,
+  graduation: GraduationCap,
 }
 
 export function ProjectIcon({ icon, className }: { icon: string; className?: string }) {

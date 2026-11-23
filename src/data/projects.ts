@@ -4,6 +4,61 @@ const solo = { uz: 'Mustaqil loyiha', en: 'Solo project', ru: 'Собствен�
 
 export const projects: Project[] = [
   {
+    id: 'ustoz',
+    title: 'Ustoz',
+    year: '2026',
+    role: solo,
+    subtitle: {
+      uz: 'O‘zbek tilidagi AI repetitor',
+      en: 'AI tutor in the Uzbek language',
+      ru: 'AI-репетитор на узбекском языке',
+    },
+    description: {
+      uz: "Matematika, ingliz tili va DTM tayyorgarligi: istalgan masalani bosqichma-bosqich tushuntiradigan sun'iy intellekt ustoz.",
+      en: 'Maths, English and national exam (DTM) prep: an AI tutor that explains any problem step by step.',
+      ru: 'Математика, английский и подготовка к DTM: AI-репетитор, который объясняет любую задачу по шагам.',
+    },
+    longDescription: {
+      uz: "Ustoz — Demo Day uchun yaratilgan startap loyiha. O‘quvchi masalani yozadi, ovoz bilan aytadi yoki suratga oladi, AI esa uni o‘zbek tilida qadam-baqadam yechib beradi. Uchta rejim bor: to‘liq yechim, faqat maslahat va sodda tushuntirish. AI istalgan fan va mavzu bo‘yicha DTM formatidagi test tuzadi va har bir javobni izohlaydi. Inglizcha so‘z kartochkalari, natijalar statistikasi va Demo Day uchun ichki taqdimot rejimi ham mavjud.",
+      en: 'Ustoz is a startup project built for Demo Day. A student types a problem, says it aloud or takes a photo, and the AI solves it step by step in Uzbek. There are three modes: full solution, hints only and simple explanation. The AI also generates DTM-style tests on any subject and topic and explains every answer. English word flashcards, progress statistics and a built-in Demo Day presentation mode are included.',
+      ru: 'Ustoz — стартап-проект для Demo Day. Ученик пишет задачу, произносит её голосом или фотографирует, а AI решает её по шагам на узбекском языке. Три режима: полное решение, только подсказки и простое объяснение. AI составляет тесты в формате DTM по любому предмету и теме и объясняет каждый ответ. Также есть карточки английских слов, статистика прогресса и встроенный режим презентации для Demo Day.',
+    },
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'AI SDK', 'Gemini'],
+    category: 'app',
+    status: 'done',
+    accent: 'from-emerald-500 to-teal-400',
+    github: 'https://github.com/akramovahror722-coder/Ustoz',
+    demo: 'https://ustoz-rust.vercel.app',
+    icon: 'graduation',
+    features: [
+      {
+        uz: 'AI chat: 7 fan, 3 rejim, formulalar bilan bosqichma-bosqich yechim',
+        en: 'AI chat: 7 subjects, 3 modes, step-by-step solutions with formulas',
+        ru: 'AI-чат: 7 предметов, 3 режима, пошаговые решения с формулами',
+      },
+      {
+        uz: 'Rasm orqali savol, ovozli kiritish va javobni ovozda tinglash',
+        en: 'Ask with a photo, voice input and read-aloud answers',
+        ru: 'Вопрос по фото, голосовой ввод и озвучивание ответов',
+      },
+      {
+        uz: 'AI tuzadigan DTM testlar: taymer, natija va izohlar',
+        en: 'AI-generated DTM tests with a timer, score and explanations',
+        ru: 'Тесты DTM от AI: таймер, результат и пояснения',
+      },
+      {
+        uz: 'Inglizcha so‘z kartochkalari va natijalar statistikasi',
+        en: 'English word flashcards and progress statistics',
+        ru: 'Карточки английских слов и статистика прогресса',
+      },
+      {
+        uz: 'Demo Day taqdimot rejimi va QR orqali jonli demo',
+        en: 'Demo Day presentation mode and live demo via QR code',
+        ru: 'Режим презентации Demo Day и живое демо по QR-коду',
+      },
+    ],
+  },
+  {
     id: 'pdfnova',
     title: 'PDF Nova',
     year: '2026',
